@@ -78,7 +78,7 @@ body{
     width: 96%;
     max-width: 960px;
     margin: 2% 20% 20% 20%;      
-    height: 700px; 
+    height: 650px; 
     margin-bottom: 4%;
   
     
@@ -129,12 +129,14 @@ body{
     background-color: #4aaaa5;
   }
   footer{
-    clear: both;
+   
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
-   
     width: 100%;
+    position: absolute;
+    
+   
    
   }
   .gallerie{
@@ -167,15 +169,17 @@ body{
   }
     .section{
     width: 980px;
-    margin-left:134px;
+    margin-left:136px;
     }
     #message, input{
     width:800px;  
     padding: 5px;
     }
     .footer{
-    width: 1370px;
+    width: 980px;
+    margin-left: 136px;
     }
+
     nav{
     margin-right: 1%;    
              
@@ -187,68 +191,67 @@ body{
   .header{
 
       
-      max-width: 80%;
-      padding-right: 60%;
-   
-      
-      }
-      .section{
+    max-width: 80%;
+    padding-right: 60%;
+ 
+    
+    }
+    .section{
+      width: 768px;
+        margin-right: 20%;
+    }
+    .name{
+      margin-left: 15%;
+      width: 18%;
+    }
+    nav{
+        margin-right: 0;       
+    
+          
+    }
+    
+    .footer{
+       
         width: 768px;
-          margin-right: 20%;
-      }
-      .name{
-        margin-left: 15%;
-        width: 18%;
-      }
-      nav{
-          margin-right: 0;       
-      
-            
-      }
-      
-      .footer{
-         
-          width: 1075px;
-      }
-     
-   #message, input{
-       width:600px;  
-       padding: 5px;
-   }
+        margin-left: 18%;
+    }
+   
+ #message, input{
+     width:600px;  
+     padding: 5px;
+ }
 
   }
   @media screen and (max-width:640px)
 {
   .header{
-    width: 640px;
-    max-width: 64%;
-    padding-right: 95%;
-            
-     }
-    .section{
-    max-width: 640px;    
-    margin-left: 30%;
-    
-    }
-    .name{
-    margin-left: 35%;
-    width: 25%;
-    }
-    
-    #message, input{
-    width:500px;  
-    padding: 5px;
-       }
-    .footer{
-     width: 1000px;  
-    } 
-    nav li a{
-     
-      margin-right: 40%;
-      
-    }
+  width: 100%;
+  padding-right: 100%;
+
   }
-  
+  .section{
+    width: 640px;
+   
+  }
+  .name {
+    width: 640px;
+    margin-left: 18%;
+    height: 40px;
+    position: relative;
+   
+   
+  }
+  nav{
+    position: absolute;
+  right: 10px;
+  padding: 20px;
+  }
+  .footer{
+    width: 640px;
+    margin-left: 22%;
+  }
+
+}
   
   
  
